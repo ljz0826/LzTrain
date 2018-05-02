@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+    <item android:state_focused="true"><shape>
+        <solid android:color="@color/holo_blue_bright"  ></solid>
+        <size android:width="999dp" android:height="1dp"></size>
+    </shape></item>
+    <item><shape>
+        <solid android:color="@color/holo_gray_light" />
+        <size android:width="999dp" android:height="1dp"></size>
+    </shape></item>
+</selector>

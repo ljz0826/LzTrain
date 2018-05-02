@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">物资系统</string>
+    <string name="splash_name">锦州机务段\n材料科</string>
+
+    <!--LoginActivity-->
+    <string name="username_hint">用户名</string>
+    <string name="password_hint">密  码</string>
+    <string name="login">登  录</string>
+    <string name="picture">图片</string>
+    <string name="upload">上传图片</string>
+    <string name="unlogin">注 销</string>
+    <!--error-->
+    <string name="error_empty_username">用户名为空</string>
+    <string name="error_permission_camera">请开启相机权限</string>
+    <string name="error_empty_password">密码为空</string>
+    <string name="error_empty_uri">未选择图片</string>
+    <string name="error_empty_code">请输入编号</string>
+    <string name="error_net">请检查网络连接</string>
+    <string name="success_submit">提交成功</string>
+    <string name="error_permission_storage">请在手机的设置-应用找到该应用并开启存储权限</string>
+    <string name="no_material">请扫描物资的二维码</string>
+    <string name="error_material">请输入12位物资编码</string>
+    <string name="no_zxing">请扫描物资的二维码</string>
+    <string name="error_service">服务器异常</string>
+    <!--MainActivity-->
+    <string name="zxing">二维码</string>
+    <string name="pic_fragment">图片采集</string>
+    <string name="zxing_fragment">发料管理</string>
+    <!--zxingfragment-->
+    <string name="zxing_title">锦州机务段物资管理</string>
+    <string name="material_code">物资编码</string>
+    <string name="material_name">物资名称</string>
+    <string name="standard">规格图号</string>
+    <string name="unit">计量单位</string>
+    <string name="price">库存单价</string>
+    <string name="total_num">库存数量</string>
+    <string name="apply_num">请领数量</string>
+    <string name="true_num">实发数量</string>
+    <string name="error_true">请填写实发数量</string>
+    <string name="error_matrial">请在右上角二维码界面获取物料信息</string>
+    <string name="error_login">请先登录</string>
+    <string name="error_num">实发数量不可超过库存数量</string>
+    <string name="zxing_submit">取料提交核减库存</string>
+    <!--slide-->
+    <string name="slide_stuff">当前用户</string>
+    <string name="slide_number">工号 ：</string>
+    <string name="slide_name">姓名 ：</string>
+    <string name="slide_position">职务 ：</string>
+    <string name="slide_department">部门 ：</string>
+    <!--menu-->
+    <string name="action_zxing">手机扫码</string>
+    <string name="action_write">人工输入</string>
+    <!--uploadfragment-->
+    <string name="write_stuff_hint">请输入物资编码</string>
+
+    <string name="zxing_focus">请将扫描窗口对准物料二维码</string>
+</resources>
